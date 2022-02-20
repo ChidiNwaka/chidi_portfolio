@@ -1,0 +1,61 @@
+
+
+body {
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+
+  /* border: 1px solid green; */
+}
+
+.container {
+  /* border: 1px solid black; */
+}
+
+.header-row {
+  /* display: flex; */
+  align-items: center,
+  padding-top: 12px;
+  justify-content: space-between;
+  /* border: 1px solid pink; */
+} 
+
+.header-navigation-list {
+
+  display: flex;
+
+}
+.page-title {
+  color: blue;
+}
+
+.about-me-content {
+  /* border: 1px solid purple; */
+  display: flex;
+  max-height: 500px;
+
+}
+
+.about-me-content-text {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: 0;
+}
+
+.about-me-content-img {
+  width: 20%;
+  /* border: 1px solid black; */
+
+  object-fit: contain;
+}
